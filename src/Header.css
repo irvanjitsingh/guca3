@@ -1,0 +1,22 @@
+.component-header {
+}
+
+.component-header-title {
+  padding: 15px;
+  position: relative;
+  font-weight: normal;
+  font-family: "Avenir", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.component-header-button {
+  padding: 20px;
+}
+
+.component-header img {
+  position: relative;
+  top: 6px;
+  padding: 0 14px;
+}

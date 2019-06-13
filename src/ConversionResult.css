@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'GurbaniAkhar';
+  font-style: normal;
+  font-weight: 400;
+  src: local('GurbaniAkhar'),
+       url('fonts/GURAKHAR.TTF') format('truetype')
+}
+
+.component-conversion-result-main {
+  padding: 5px;
+  background-color: #243447;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "GurbaniAkhar";
+  /* font-family: 'Mukta Mahee', sans-serif; */
+}
+
+.component-conversion-result-sub {
+  padding: 5px;
+  background-color: #243447;
+  color: #ffffff;
+  font-size: 20px;
+  /* font-family: "GurbaniAkhar"; */
+  font-family: 'Mukta Mahee', sans-serif;
+}

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'GurbaniAkhar';
+  font-style: normal;
+  font-weight: 400;
+  src: local('GurbaniAkhar'),
+       url('fonts/GURAKHAR.TTF') format('truetype')
+}
+
+.component-conversion-input {
+}
+
+.component-conversion-input > div {
+  margin: 0 0 0 0;
+}
+
+.component-conversion-input input {
+  background-color: #243447;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'GurbaniAkhar';
+  padding: 10px 8px;
+  width: 100%;
+}
