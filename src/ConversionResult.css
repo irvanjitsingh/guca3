@@ -15,11 +15,20 @@
   /* font-family: 'Mukta Mahee', sans-serif; */
 }
 
-.component-conversion-result-sub {
+.component-conversion-result-main-hindi {
   padding: 5px;
   background-color: #243447;
   color: #ffffff;
   font-size: 20px;
   /* font-family: "GurbaniAkhar"; */
   font-family: 'Mukta Mahee', sans-serif;
+}
+
+.component-conversion-result-sub {
+  padding: 5px;
+  background-color: #243447;
+  color: #ffffff;
+  font-size: 20px;
+  /* font-family: "GurbaniAkhar"; */
+  font-family: 'Avenir', sans-serif;
 }

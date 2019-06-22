@@ -17,7 +17,7 @@ export default class ConversionInput extends React.PureComponent {
       <div class="col-md-6">
         <div className="component-conversion-input">
           <div>
-            <input placeholder = {"gurmuKI ivc kuC ilKo (gurbwxI-AKr vrqo)"} onChange={this.handleChange} />
+            <textarea onChange={this.handleChange} />
           </div>
         </div>
       </div>

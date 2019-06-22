@@ -1,5 +1,5 @@
 import React from 'react';
-import * as anvaad from 'anvaad-js' 
+import * as anvaad from 'anvaad-js'
 import Header from './Header'
 import ConversionInput from './ConversionInput'
 import ConversionResult from './ConversionResult'
@@ -10,14 +10,16 @@ export default class App extends React.PureComponent {
     super(props);
     this.state = {
       gurmukhiText: "",
-      devnagriText: ""
+      devnagriText: "",
+      englishText: ""
     };
   }
 
   handleInputChange = event => {
     this.setState({
       gurmukhiText: anvaad.unicode(event.target.value),
-      devnagriText: anvaad.translit(event.target.value, 'devnagri')
+      devnagriText: anvaad.translit(event.target.value, 'devnagri'),
+      englishText: anvaad.translit(event.target.value, 'english')
     });
   };
 
@@ -26,7 +28,7 @@ export default class App extends React.PureComponent {
       <div>
         <Header />
         <ConversionInput textChange={this.handleInputChange} />
-        <ConversionResult outputGurmukhi={this.state.gurmukhiText} outputDevnagri={this.state.devnagriText} />
+        <ConversionResult outputGurmukhi={this.state.gurmukhiText} outputDevnagri={this.state.devnagriText} outputEnglish={this.state.englishText} />
       </div>
     );
   }
