@@ -10,7 +10,7 @@
     "react-scripts": "3.0.1",
     "websocket-driver": "^0.7.3"
   },
-  "homepage": "https://irvanjitsingh.github.io/guca3",
+  "homepage": "https://guca3.sikhutils.com",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
