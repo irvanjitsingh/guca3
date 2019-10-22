@@ -6,12 +6,20 @@
        url('fonts/GURAKHAR.TTF') format('truetype')
 }
 
+@font-face {
+  font-family: 'AnmolUniBani';
+  font-style: normal;
+  font-weight: 400;
+  src: local('AnmolUniBani'),
+       url('fonts/AnmolUniBani.ttf') format('truetype')
+}
+
 .component-conversion-result-main {
   padding: 5px;
   background-color: #243447;
   color: #ffffff;
   font-size: 30px;
-  font-family: "GurbaniAkhar";
+  font-family: "AnmolUniBani";
   /* font-family: 'Mukta Mahee', sans-serif; */
 }
 

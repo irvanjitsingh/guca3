@@ -1,5 +1,5 @@
 import React from 'react';
-import * as anvaad from 'anvaad-js'
+import * as anvaad from 'anvaad-js-gursevak'
 import Header from './Header'
 import ConversionInput from './ConversionInput'
 import ConversionResult from './ConversionResult'
