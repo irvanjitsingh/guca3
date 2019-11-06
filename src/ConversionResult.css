@@ -14,13 +14,21 @@
        url('fonts/AnmolUniBani.ttf') format('truetype')
 }
 
+@font-face {
+  font-family: 'OpenAnmolUni';
+  font-style: normal;
+  font-weight: 400;
+  src: local('OpenAnmolUni'),
+       url('fonts/OpenAnmolUni-Bold.woff') format('woff')
+}
+
 .component-conversion-result-main {
   padding: 5px;
   background-color: #243447;
   color: #ffffff;
   font-size: 30px;
-  font-family: "Mukta Mahee";
-  /* font-family: 'Mukta Mahee', sans-serif; */
+  /* font-family: "OpenAnmolUni"; */
+  font-family: 'Mukta Mahee', sans-serif;
 }
 
 .component-conversion-result-main-hindi {

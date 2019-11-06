@@ -16,24 +16,7 @@ export default class ConversionInput extends React.PureComponent {
     return (
       <div class="col-md-6">
         <div className="component-conversion-input">
-            <textarea onChange={this.handleChange} />
-        </div>
-        <div className="chart-english">
-        <b>Reference:</b><br/><br/>
-        for adha-yaya, use "Î"<br/>
-        for pair-yaya, use "´"<br/><br/>
-        </div>
-        <div className="chart-gurbani">
-        Î
-        ´
-        †
-        ˜
-        œ
-        Í
-        ç
-        ü
-        ¨
-        Ú
+            <textarea onChange={this.handleChange} style={{ height: 400 }}/>
         </div>
       </div>
     );
