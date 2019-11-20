@@ -5,6 +5,14 @@ export default class ConversionResult extends React.PureComponent {
   render() {
     return (
       <div class="col-md-6">
+        <h4>gurbani font:</h4>
+        <div className="component-conversion-result-main-gurbani">
+        {this.props.outputGurmukhi}
+        <div className="component-conversion-result-main-hindi-gurbani">
+        {this.props.outputDevnagri}
+        </div>
+        </div>
+        <h4>standard font:</h4>
         <div className="component-conversion-result-main">
         {this.props.outputGurmukhi}
         </div>

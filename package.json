@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "anvaad-js": "^1.2.0",
-    "anvaad-js-gursevak": "^1.2.3",
+    "anvaad-js": "^1.4.0",
+    "anvaad-js-gursevak": "^1.4.0",
     "gh-pages": "^2.1.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",

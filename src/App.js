@@ -11,7 +11,6 @@ export default class App extends React.PureComponent {
     this.state = {
       gurmukhiText: "",
       devnagriText: "",
-      englishText: ""
     };
   }
 
@@ -19,7 +18,6 @@ export default class App extends React.PureComponent {
     this.setState({
       gurmukhiText: anvaad.unicode(event.target.value),
       devnagriText: anvaad.translit(event.target.value, 'devnagri'),
-      englishText: anvaad.translit(event.target.value, 'english')
     });
   };
 
@@ -28,7 +26,7 @@ export default class App extends React.PureComponent {
       <div>
         <Header />
         <ConversionInput textChange={this.handleInputChange} />
-        <ConversionResult outputGurmukhi={this.state.gurmukhiText} outputDevnagri={this.state.devnagriText} outputEnglish={this.state.englishText} />
+        <ConversionResult outputGurmukhi={this.state.gurmukhiText} outputDevnagri={this.state.devnagriText} />
       </div>
     );
   }
