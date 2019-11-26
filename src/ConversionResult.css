@@ -18,20 +18,25 @@
        url('fonts/OpenAnmolUni-Bold.woff') format('woff')
 }
 
+@font-face {
+  font-family: 'OpenSatlujUni';
+  src: local('OpenSatlujUni'),
+       url('fonts/OpenSatlujUni-Regular.otf') format('opentype')
+}
+
 .component-conversion-result-main-gurbani {
   padding: 5px;
   background-color: #243447;
   color: #ffffff;
   font-size: 25px;
-  font-family: "OpenAnmolUni";
+  font-family: "OpenSatlujUni";
 }
 
 .component-conversion-result-main {
   padding: 5px;
   background-color: #243447;
   color: #ffffff;
-  font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Mukta Mahee', sans-serif;
 }
 
@@ -39,7 +44,6 @@
   padding: 5px;
   background-color: #243447;
   color: #ffffff;
-  font-weight: bold;
   font-size: 20px;
   font-family: 'Mukta Mahee', sans-serif;
 }
@@ -49,7 +53,7 @@
   background-color: #243447;
   color: #ffffff;
   font-size: 20px;
-  font-family: "OpenAnmolUni";
+  font-family: "OpenSatlujUni";
 }
 
 .component-conversion-result-sub {

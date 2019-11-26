@@ -6,7 +6,7 @@ export default class Header extends React.PureComponent {
     return (
       <header className="component-header">
         <div className="component-header-title">
-          GUCA v3 ~ ਗੁਰਮੁਖੀ Unicode Conversion via <a href="https://khalisfoundation.github.io/anvaad-js/">AnvaadJS</a>
+          Gurmukhi Unicode Converter
         </div>
       </header>
     );

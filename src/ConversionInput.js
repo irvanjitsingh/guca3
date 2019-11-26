@@ -16,7 +16,7 @@ export default class ConversionInput extends React.PureComponent {
     return (
       <div class="col-md-6">
         <div className="component-conversion-input">
-            <textarea onChange={this.handleChange} style={{ height: 400 }}/>
+            <textarea onChange={this.handleChange}/>
         </div>
       </div>
     );
