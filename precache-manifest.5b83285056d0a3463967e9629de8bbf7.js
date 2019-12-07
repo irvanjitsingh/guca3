@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3556e4e35972ad4a6e492d8fb290e030",
+    "revision": "52f8021ba773d6c585d4a2f828d7c671",
     "url": "/index.html"
   },
   {
-    "revision": "d32f09be183848b824fb",
-    "url": "/static/css/main.8bbe5e50.chunk.css"
+    "revision": "8e3a1b43f2b0498b4d46",
+    "url": "/static/css/main.7d5e4022.chunk.css"
   },
   {
-    "revision": "f556db5640837e7b5e2f",
-    "url": "/static/js/2.9ec0c68a.chunk.js"
+    "revision": "5552b402e1c2279d2a18",
+    "url": "/static/js/2.527e19fd.chunk.js"
   },
   {
-    "revision": "d32f09be183848b824fb",
-    "url": "/static/js/main.4f2d4a34.chunk.js"
+    "revision": "8e3a1b43f2b0498b4d46",
+    "url": "/static/js/main.ef0ce47e.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -24,12 +24,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/AnmolUniBani.6137b41b.ttf"
   },
   {
-    "revision": "92ffab686438db440846e5e750778f0f",
-    "url": "/static/media/GURAKHAR.92ffab68.TTF"
-  },
-  {
     "revision": "6a4066db9b88941acf2ed08e1086d702",
     "url": "/static/media/OpenAnmolUni-Bold.6a4066db.woff"
+  },
+  {
+    "revision": "00feba1cd045b4f05c084a86e556814f",
+    "url": "/static/media/OpenGurbaniAkhar-Regular.00feba1c.otf"
   },
   {
     "revision": "2418662dadb182a8eaedf9238db9d6eb",
